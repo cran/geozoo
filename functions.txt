@@ -1,0 +1,23 @@
+ggobi(cube())  #p>0 for group
+ggobi(cube.face())
+ggobi(cube.solid())
+ggobi(cube.solid.eq())
+ggobi(cube.dotline())
+ggobi(sphere())
+ggobi(sphere.solid())
+ggobi(sphere.solid.eq())
+ggobi(simplex())
+ggobi(torus())
+ggobi(torus.flat())
+
+ggobi(boy.surface())  #p=3 for group
+ggobi(conic.spiral())
+ggobi(conic.spiral.nautilus())
+ggobi(cross.cap())
+ggobi(dini.surface())
+ggobi(ellipsoid())
+ggobi(enneper())
+ggobi(klein.fig.eight())
+ggobi(roman())
+
+ggobi(mobius()) #p = 3 or 4
