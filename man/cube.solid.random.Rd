@@ -1,14 +1,15 @@
-\name{cube.solid}
-\alias{cube.solid}
+\name{cube.solid.random}
+\alias{cube.solid.random}
 \title{ Solid Cube}
 \description{
 A function to generate a solid cube with random points.
 }
 \usage{
-cube.solid(p = 3)
+cube.solid.random(p, n = 850 * 2^p)
 }
 \arguments{
   \item{p}{ dimension of object }
+  \item{n}{ number of points in object }
 }
 \value{
   \item{points }{location of points}
@@ -18,9 +19,9 @@ cube.solid(p = 3)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a solid cube with random points
-cube.solid.eq(p = 3)
+cube.solid.random(p = 3,)
 
 ## Through rggobi
-ggobi(cube.solid(p = 3))
+ggobi(cube.solid.random(p = 3,))
 }
 \keyword{ dynamic }
