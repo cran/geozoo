@@ -1,11 +1,11 @@
-\name{cube}
-\alias{cube}
+\name{cube.iterate}
+\alias{cube.iterate}
 \title{ Cube }
 \description{
 A function generate a cube with vertices and a wire frame.
 }
 \usage{
-cube(p = 3)
+cube.iterate(p = 3)
 }
 \arguments{
   \item{p}{ dimension of object}
@@ -18,9 +18,9 @@ cube(p = 3)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a cube
-cube(p = 3)
+cube.iterate(p = 3)
 
 ## Through rggobi
-ggobi(cube(p = 3))
+ggobi(cube.iterate(p = 3))
 }
 \keyword{ dynamic }

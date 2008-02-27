@@ -1,11 +1,11 @@
-\name{cube.solid.eq}
-\alias{cube.solid.eq}
+\name{cube.solid.grid}
+\alias{cube.solid.grid}
 \title{ Equidistant Solid Cube}
 \description{
 A function to generate a solid cube with equidistant points.
 }
 \usage{
-cube.solid.eq(p = 3, n = 8)
+cube.solid.grid(p = 3, n = 8)
 }
 \arguments{
   \item{p}{ dimension of object }
@@ -19,9 +19,9 @@ cube.solid.eq(p = 3, n = 8)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a solid cube with equidistant points
-cube.solid.eq(p = 3, n = 8)
+cube.solid.grid(p = 3, n = 8)
 
 ## Through rggobi
-ggobi(cube.solid.eq(p = 3, n = 8))
+ggobi(cube.solid.grid(p = 3, n = 8))
 }
 \keyword{ dynamic }
