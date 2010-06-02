@@ -22,9 +22,10 @@ conic.spiral.nautilus(n = 10000, a = 0.2, b = 0.1, c = 0, w = 2)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Nautilus Conic Spiral
-conic.spiral.nautilus( n = 10000 )
+conic.spiral.nautilus( n = 1000 )
 
+\dontrun{
 ## Through rggobi
 ggobi(conic.spiral.nautilus(n = 10000))
-}
+}}
 \keyword{ dynamic }

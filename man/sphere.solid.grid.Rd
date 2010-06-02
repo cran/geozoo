@@ -17,7 +17,8 @@ sphere.solid.grid(p = 3, n = 8)
 ## Generates a solid sphere with equidistant points
 sphere.solid.grid(p = 3, n = 8)
 
+\dontrun{
 ## Through rggobi
 ggobi(sphere.solid.grid(p = 4,n = 5))
-}
+}}
 \keyword{ dynamic }

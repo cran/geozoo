@@ -22,9 +22,10 @@ ellipsoid(n = 10000, a = 1, b = 1, c = 3)
 \author{ Barret Schloerke }
 \examples{
 ## Generates an ellipsoid
-ellipsoid(n = 10000, a = 1, b = 1, c = 3)
+ellipsoid(n = 1000, a = 1, b = 1, c = 3)
 
+\dontrun{
 ## Through rggobi
 ggobi(ellipsoid(n = 10000, a = 1, b = 1, c = 3))
-}
+}}
 \keyword{ dynamic }

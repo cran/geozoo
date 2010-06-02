@@ -16,7 +16,8 @@ simplex(p = 3)
 ## Generates a simplex
 simplex(p = 3)
 
+\dontrun{
 ## Through rggobi
 ggobi(simplex(p = 3))
-}
+}}
 \keyword{ dynamic }

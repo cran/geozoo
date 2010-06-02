@@ -21,9 +21,10 @@ dini.surface(n = 10000, a = 1, b = 1)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Dini surface
-dini.surface(n = 10000, a = 1, b = 1)
+dini.surface(n = 1000, a = 1, b = 1)
 
+\dontrun{
 ## Through rggobi
 ggobi(dini.surface(n = 10000, a = 1, b = 1))
-}
+}}
 \keyword{ dynamic }

@@ -15,9 +15,10 @@ mobius.experiment(p=5, n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a mobius strip.
-mobius.experiment(5, n = 10000)
+mobius.experiment(5, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(mobius.experiment(5, n = 10000))
-}
+}}
 \keyword{ dynamic }

@@ -15,9 +15,10 @@ sphere.solid.random(p, n = p * 500)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a solid sphere with random points.
-sphere.solid.random(p = 3)
+sphere.solid.random(p = 3, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(sphere.solid.random(p = 5))
-}
+}}
 \keyword{ dynamic }

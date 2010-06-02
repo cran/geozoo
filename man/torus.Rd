@@ -16,9 +16,11 @@ torus(p = 3, n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a torus.
-torus(p = 3, n = 5000)
+torus(p = 3, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(torus(p = 4, n = 5000))
+}
 }
 \keyword{ dynamic }

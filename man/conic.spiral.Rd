@@ -21,9 +21,10 @@ conic.spiral(n = 10000, a = 0.2, b = 1, c = 0.1, w = 2)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Conic Spiral
-conic.spiral( n = 10000 )
+conic.spiral( n = 1000 )
 
+\dontrun{
 ## Through rggobi
 ggobi(conic.spiral(n = 10000))
-}
+}}
 \keyword{ dynamic }

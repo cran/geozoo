@@ -15,9 +15,10 @@ torus.flat(p = 4, n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Flat Torus.
-torus <- torus.flat(p = 4, n = 10000)
+torus <- torus.flat(p = 4, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(torus.flat(p = 6, n = 10000))
-}
+}}
 \keyword{ dynamic }

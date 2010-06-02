@@ -16,9 +16,10 @@ roman.surface(n = 10000, a = 1)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Roman surface.
-roman.surface(n = 10000, a = 1)
+roman.surface(n = 1000, a = 1)
 
+\dontrun{
 ## Through rggobi
 ggobi(roman.surface(n = 10000, a = 1))
-}
+}}
 \keyword{ dynamic }

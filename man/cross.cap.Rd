@@ -18,9 +18,10 @@ cross.cap(n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Cross Cap
-cross.cap( n = 10000 )
+cross.cap( n = 1000 )
 
+\dontrun{
 ## Through rggobi
 ggobi(cross.cap(n = 10000))
-}
+}}
 \keyword{ dynamic }
