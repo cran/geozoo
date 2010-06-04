@@ -20,9 +20,10 @@ enneper.surface(n = 10000, a = 4)
 \author{ Barret Schloerke }
 \examples{
 ## Generates an Enneper Surface
-enneper.surface(n = 10000, a = 4)
+enneper.surface(n = 1000, a = 4)
 
+\dontrun{
 ## Through rggobi
 ggobi(enneper.surface(n = 10000, a = 4))
-}
+}}
 \keyword{ dynamic }

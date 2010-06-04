@@ -10,13 +10,14 @@ ggobi.geozoo(data, ...)
 }
 \arguments{
   \item{data}{The geozoo data object to view}
-  \item{...}{}
+  \item{...}{ignored arguments}
 }
 \seealso{
 }
 \examples{
+\dontrun{
 ggobi(cube.iterate(p = 3))
 
 ggobi(simplex(p=4))
-}
+}}
 \keyword{dynamic}

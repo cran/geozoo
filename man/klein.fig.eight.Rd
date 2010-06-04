@@ -16,9 +16,10 @@ klein.fig.eight(n = 10000, a = 3, b = 1)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a figure eight Klein bottle.
-klein.fig.eight(n = 10000, a = 3, b = 1)
+klein.fig.eight(n = 1000, a = 3, b = 1)
 
+\dontrun{
 ## Through rggobi
 ggobi(klein.fig.eight(n = 10000, a = 3, b = 1))
-}
+}}
 \keyword{ dynamic }

@@ -15,9 +15,10 @@ sphere.hollow(p, n = p * 500)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a sphere with points on the surface.
-sphere.hollow(p = 3)
+sphere.hollow(p = 3, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(sphere.hollow(p = 4))
-}
+}}
 \keyword{ dynamic }

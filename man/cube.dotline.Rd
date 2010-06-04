@@ -20,7 +20,8 @@ cube.dotline(p = 3)
 ## Generates a cube with points along its wire frame
 cube.dotline(p = 3)
 
+\dontrun{
 ## Through rggobi
 ggobi(cube.dotline(p = 3))
-}
+}}
 \keyword{ dynamic }

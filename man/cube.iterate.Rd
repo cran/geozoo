@@ -20,7 +20,8 @@ cube.iterate(p = 3)
 ## Generates a cube
 cube.iterate(p = 3)
 
+\dontrun{
 ## Through rggobi
 ggobi(cube.iterate(p = 3))
-}
+}}
 \keyword{ dynamic }

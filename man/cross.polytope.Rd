@@ -20,7 +20,8 @@ cross.polytope(p = 3)
 ## Generates a 3-D Cross Polytope
 cross.polytope(p = 3)
 
+\dontrun{
 ## Through rggobi in 4-D
 ggobi(cross.polytope(p = 4))
-}
+}}
 \keyword{ dynamic }

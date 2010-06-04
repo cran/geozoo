@@ -21,7 +21,8 @@ cube.solid.grid(p = 3, n = 8)
 ## Generates a solid cube with equidistant points
 cube.solid.grid(p = 3, n = 8)
 
+\dontrun{
 ## Through rggobi
 ggobi(cube.solid.grid(p = 3, n = 8))
-}
+}}
 \keyword{ dynamic }

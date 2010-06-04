@@ -15,9 +15,10 @@ mobius(p=3, n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a mobius strip.
-mobius(3, n = 10000)
+mobius(3, n = 1000)
 
+\dontrun{
 ## Through rggobi
 ggobi(mobius(3, n = 10000))
-}
+}}
 \keyword{ dynamic }

@@ -20,7 +20,8 @@ cube.face(p = 3)
 ## Generates a cube with points on its face
 cube.face(p = 3)
 
+\dontrun{
 ## Through rggobi
 ggobi(cube.face(p = 3))
-}
+}}
 \keyword{ dynamic }

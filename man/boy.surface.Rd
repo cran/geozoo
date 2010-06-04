@@ -15,9 +15,10 @@ boy.surface(n = 10000)
 \author{ Barret Schloerke }
 \examples{
 ## Generates a Boy Surface
-boy.surface( n = 10000 )
+boy.surface( n = 1000 )
 
+\dontrun{
 ## Through rggobi
 ggobi(boy.surface(n = 10000))
-}
+}}
 \keyword{ dynamic }
