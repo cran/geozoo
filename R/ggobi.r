@@ -1,6 +1,9 @@
-library(rggobi)
 
 ggobi.geozoo <- function(data, ...) {
+  if(!"rggobi" %in% .packages()){
+    stop("please load the rggobi package to use this function")
+  }
+
 	gg <- ggobi(data$points)
 	glyph_colour(gg[1]) <- 6
 	glyph_size(gg[1]) <- 3
